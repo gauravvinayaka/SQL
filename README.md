@@ -5,7 +5,7 @@ Stored procedure that is created to display and compare Fall Uncertified Enrollm
 Fetching Applied/Admitted data for different categories : NEW FIRST-TIME FRESHMEN,AFRICAN AMERICAN,HISPANIC,CLASS RANK,UNDERGRADUATE TRANSFERS,NEW GRADUATE STUDENTS,RETENTION/GRADUATION RATE,DEGREES AWARDED,SEMESTER CREDIT HOURS,HEADCOUNT ENROLLMENT and ENROLLMENT BY HOME.
 
 -----------
-#Parameters
+# Parameters
 
 ```
 @Term int,
@@ -15,7 +15,7 @@ We have to declare 2 parameters and pass a numeric value year to @Term and a rep
 We can pass years from 2009-2016.
 
 -------------
-#NEW FIRST-TIME FRESHMEN
+# NEW FIRST-TIME FRESHMEN
 
 Here, i am finding out the Applied/Admitted data for New First Time Freshmen.
 The reportType here is 'UNCERTNEWFRESH' and thr Term is 20172 (indicates year 2016).
@@ -43,7 +43,7 @@ Output:
 ![](images/New_first_time_freshmen.PNG)
 
 -----------
-#CLASS RANK
+# CLASS RANK
 
 Similarly, i am finding out the Applied/Admitted data for Class Rank.
 The reportType here is 'UNCERTCLASSRANK' and thr Term is 20172 (indicates year 2016).
@@ -110,7 +110,7 @@ Later, i order them according to the ranks.
  ![](images/Class_rank.PNG)
 
 -----------
-#UNDERGRADUATE TRANSFERS
+# UNDERGRADUATE TRANSFERS
 
 Similarly, i am finding out the Applied/Admitted data for Undergrad Transfers.
 The reportType here is 'UNCERTUNDERGRAD' and thr Term is 20172 (indicates year 2016).
