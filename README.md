@@ -124,11 +124,11 @@ Output:
 ------
 For these categories : NEW GRADUATE STUDENTS,DEGREES AWARDED,SEMESTER CREDIT HOURS,HEADCOUNT ENROLLMENT and ENROLLMENT BY HOME
 The header text in stored procedure is Category, i am replacing Category with the desired header text.
-For ex. for Headcount Enrollment, this is the code in asp.net
+
 
 ![](images/headcount_enrollment.PNG)
 
-
+For ex. for Headcount Enrollment, this is the code in asp.net
 ```
 <asp:BoundField HeaderText="HEADCOUNT ENROLLMENT" HtmlEncode="false" DataField="Category" >
 ```
