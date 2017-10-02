@@ -2,7 +2,7 @@
 Stored procedure that is created to display and compare Fall Uncertified Enrollment Numbers in Texas Tech University, from 2009-2016.
 
 
-Fetching Applied/Admitted data for different categories : NEW FIRST-TIME FRESHMEN,AFRICAN AMERICAN,HISPANIC,CLASS RANK,UNDERGRADUATE TRANSFERS,NEW GRADUATE STUDENTS,DEGREES AWARDED,SEMESTER CREDIT HOURS,HEADCOUNT ENROLLMENT and ENROLLMENT BY HOME.
+Fetching Applied/Admitted data for different categories : NEW FIRST-TIME FRESHMEN,AFRICAN AMERICAN,HISPANIC,CLASS RANK,UNDERGRADUATE TRANSFERS,NEW GRADUATE STUDENTS,RETENTION/GRADUATION RATE,DEGREES AWARDED,SEMESTER CREDIT HOURS,HEADCOUNT ENROLLMENT and ENROLLMENT BY HOME.
 
 -----------
 #Parameters
@@ -121,4 +121,14 @@ Output:
 
 ![](images/Undergarduate_transfers.PNG)
 
+------
+For these categories : NEW GRADUATE STUDENTS,DEGREES AWARDED,SEMESTER CREDIT HOURS,HEADCOUNT ENROLLMENT and ENROLLMENT BY HOME
+The header text in stored procedure is Category, i am replacing Category with the desired header text.
+For ex. for Headcount Enrollment, this is the code in asp.net
 
+![](images/headcount_enrollment.PNG)
+
+
+```
+<asp:BoundField HeaderText="HEADCOUNT ENROLLMENT" HtmlEncode="false" DataField="Category" >
+```
