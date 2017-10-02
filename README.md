@@ -119,6 +119,6 @@ Later i calculate %Change.
 
 Output: 
 
-![](images/Undergrad_transfers.PNG)
+![](images/Undergarduate_transfers.PNG)
 
 
